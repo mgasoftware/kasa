@@ -7,7 +7,7 @@ function Header() {
         <header className='kasa-header'>
             <img src={logo} alt='Kasa' className='kasa-headerLogo' />
             <ul className='kasa-headerMenu'>
-                <li><a href="../public/index.html" style={{textDecoration: 'underline'}}>Acceuil</a></li>
+                <li><a href="../public/index.html" style={{textDecoration: 'underline'}}>Accueil</a></li>
                 <li><a href="../public/index.html">A Propos</a></li>
             </ul>
         </header>
