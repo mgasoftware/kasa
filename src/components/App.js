@@ -1,14 +1,16 @@
 import React from 'react';
-import Header from './Header';
-import Main from './Main';
-import Footer from './Footer';
+import { Routes, Route } from 'react-router-dom';
+
+import Home from './Home/Home'
+import Error404 from './Error404/Error404';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/*" element={<Error404 />} />
+      </Routes>
     </div>
   )
 }

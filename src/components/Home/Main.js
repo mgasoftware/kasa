@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/Main.css';
-import background from '../assets/homeBackground.png';
-import logements from '../datas/logements.json'
+import '../../styles/Main.css';
+import background from '../../assets/homeBackground.png';
+import logements from '../../datas/logements.json'
 
 function Main() {
     return (
