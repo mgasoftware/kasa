@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Banner.css';
+import '../../styles/Banner.css';
 import { useLocation } from 'react-router-dom';
 
 function Banner(props) {

@@ -44,3 +44,23 @@
     top: 78.82%;
     bottom: 5.88%;
 }
+
+@media screen and (max-width: 768px) {
+    .kasa-main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .kasa-mainCard {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        background: white;
+    }
+    .kasa-mainCardBody{
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        width: 335px;
+        height: 255px;
+    }
+}

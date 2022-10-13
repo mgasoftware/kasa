@@ -1,0 +1,33 @@
+.kasa-lightbox {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1240px;
+    height: 415px;
+}
+
+.kasa-lightboxImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: normal;
+    border-radius: 25px;
+}
+
+.kasa-lightboxArrowLeft {
+    position: absolute;
+    width: 46.68px;
+    height: 79.2px;
+    top: 45%;
+    left: 1%;
+    cursor: pointer;
+}
+
+.kasa-lightboxArrowRight {
+    width: 46.68px;
+    height: 79.2px;
+    position: absolute;
+    top: 45%;
+    right: 1%;
+    cursor: pointer;
+}

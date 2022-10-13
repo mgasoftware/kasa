@@ -3,7 +3,7 @@ import React from 'react'
 import '../../styles/About.css';
 import Header from "../Home/Header";
 import Footer from "../Home/Footer";
-import Banner from '../Banner';
+import Banner from '../Features/Banner';
 import Dropdown from '../Features/Dropdown';
 import background from '../../assets/aboutBackground.png';
 

@@ -23,3 +23,13 @@
     text-align: center;
     color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+    .kasa-footerLogo {
+        margin-top: 62px;
+    }
+    .kasa-footerText {
+        font-size: 12px;
+        margin-bottom: 62px;
+    }
+}

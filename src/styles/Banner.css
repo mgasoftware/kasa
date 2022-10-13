@@ -25,3 +25,27 @@
     font-weight: 500;
     font-size: 48px;
 }
+
+@media screen and (max-width: 768px) {
+    .kasa-mainInfo {
+        height: 111px;
+        max-height: 111px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+        text-align: left;
+    }
+    .kasa-mainImg {
+        height: 111px;
+        max-height: 111px;
+        border-radius: 10px;
+    }
+    .kasa-mainText{
+        display: flex;
+        align-items: flex-end;
+        top: 50%;
+        left: 35%;
+        font-size: 24px;
+        white-space: normal;
+    }
+}
