@@ -4,7 +4,7 @@ import '../../styles/About.css';
 import Header from "../Home/Header";
 import Footer from "../Home/Footer";
 import Banner from '../Banner';
-import Dropdown from '../Tools/Dropdown';
+import Dropdown from '../Features/Dropdown';
 import background from '../../assets/aboutBackground.png';
 
 function About() {

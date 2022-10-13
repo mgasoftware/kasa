@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../../styles/Header.css'
 import logo from '../../assets/logo.png'
-import Navigation from '../Tools/Navigation';
+import Navigation from '../Features/Navigation';
 
 function Header() {
     return (
