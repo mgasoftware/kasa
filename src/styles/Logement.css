@@ -5,12 +5,16 @@
     margin-right: 100px;
     margin-top: 30px;
 }
-.kasa-logementTitle {
+.kasa-logementText {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
-    display: flex;
-    align-items: flex-end;
     color: #ff6060;
+    align-self: flex-end;
+}
+.kasa-logementTitle {
+    font-size: 36px;
+}
+.kasa-logementLocation{
+    font-size: 18px;
 }
