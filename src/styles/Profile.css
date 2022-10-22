@@ -20,3 +20,18 @@
     height: 64px;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 768px) {
+    .kasa-host {
+        font-size: 12px;
+        margin-top: 17px;
+    }
+    .kasa-hostName {
+        margin-right: 10px;
+    }
+    .kasa-hostPicture {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+}

@@ -9,17 +9,11 @@ function Lightbox(props) {
     const maxIndex = props.images.length - 1;
 
     const previousImage = () => {
-        if (index !== 0) {
-            setIndex(index - 1)
-        }
-        else setIndex(maxIndex)
+        index !== 0 ?  setIndex(index - 1) : setIndex(maxIndex)
     }
 
     const nextImage = () => {
-        if (index === maxIndex) {
-            setIndex(0);
-        }
-        else setIndex(index + 1)
+        index === maxIndex ? setIndex(0) : setIndex(index + 1)
     }
     
     return (

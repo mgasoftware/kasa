@@ -8,6 +8,7 @@ import logements from '../../datas/logements.json'
 import { Navigate, useParams } from 'react-router';
 import Profile from '../Features/Profile';
 import Tags from '../Features/Tags';
+import Rating from '../Features/Rating';
 
 function Logement() {
   const id = useParams();
@@ -30,6 +31,7 @@ function Logement() {
       </div>
       <div className="kasa-logementDescription">
         <Tags tags={logementSelected.tags} />
+        <Rating rate={logementSelected.rating} />
       </div>
       <Footer />
     </div>

@@ -11,13 +11,26 @@
 }
 
 .kasa-tagsTag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
     width: 115px;
-    height: 25px;
     background: #ff6060;
     border-radius: 10px;
     text-align: center;
     margin-right: 10px;
 }
-.kasa-tagsTag p {
-    padding-top: 5px;
+
+@media screen and (max-width: 768px) {
+    .kasa-tags {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .kasa-tagsTag {
+        width: 84px;
+        border-radius: 5px;
+    }
 }

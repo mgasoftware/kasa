@@ -15,6 +15,35 @@
 .kasa-logementTitle {
     font-size: 36px;
 }
-.kasa-logementLocation{
+.kasa-logementLocation {
     font-size: 18px;
+}
+.kasa-logementDescription {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .kasa-logementInfo {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    .kasa-logementText {
+        align-self: flex-start;
+    }
+
+    .kasa-logementTitle {
+        font-size: 18px;
+    }
+
+    .kasa-logementLocation {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .kasa-logementDescription {
+        flex-direction: column;
+    }
 }

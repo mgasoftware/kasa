@@ -31,3 +31,26 @@
     right: 1%;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .kasa-lightbox {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 335px;
+        height: 255px;
+    }
+
+    .kasa-lightboxImg {
+        border-radius: 10px;
+    }
+
+    .kasa-lightboxArrowLeft {
+        width: 12px;
+        height: 20px;
+    }
+    
+    .kasa-lightboxArrowRight {
+        width: 12px;
+        height: 20px;
+    }
+}
