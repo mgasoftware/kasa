@@ -1,6 +1,10 @@
-.kasa-logementInfo {
+.kasa-logementMain {
     display: flex;
     justify-content: space-between;
+}
+.kasa-logementInfo {
+    display: flex;
+    flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 30px;
@@ -10,20 +14,25 @@
     font-style: normal;
     font-weight: 500;
     color: #ff6060;
-    align-self: flex-end;
 }
 .kasa-logementTitle {
     font-size: 36px;
 }
 .kasa-logementLocation {
+    margin-top: 10px;
     font-size: 18px;
 }
 .kasa-logementDescription {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    margin-right: 100px;
 }
 
 @media screen and (max-width: 768px) {
+    .kasa-logementMain{
+        flex-direction: column;
+    }
     .kasa-logementInfo {
         display: flex;
         flex-direction: column;
@@ -44,6 +53,7 @@
         margin-top: 5px;
     }
     .kasa-logementDescription {
-        flex-direction: column;
+        flex-direction: row-reverse;
+        margin-right: 0px;
     }
 }

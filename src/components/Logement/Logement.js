@@ -22,16 +22,18 @@ function Logement() {
     <div className="kasa-logement">
       <Header />
       <Lightbox images={logementSelected.pictures} title={logementSelected.title} />
-      <div className="kasa-logementInfo">
-        <div className="kasa-logementText">
-          <h1 className="kasa-logementTitle">{logementSelected.title}</h1>
-          <p className="kasa-logementLocation">{logementSelected.location}</p>
+      <div className="kasa-logementMain">
+        <div className="kasa-logementInfo">
+          <div className="kasa-logementText">
+            <h1 className="kasa-logementTitle">{logementSelected.title}</h1>
+            <p className="kasa-logementLocation">{logementSelected.location}</p>
+          </div>
+          <Tags tags={logementSelected.tags} />
         </div>
-        <Profile host={logementSelected.host} />
-      </div>
-      <div className="kasa-logementDescription">
-        <Tags tags={logementSelected.tags} />
-        <Rating rate={logementSelected.rating} />
+        <div className="kasa-logementDescription">
+          <Profile host={logementSelected.host} />
+          <Rating rate={logementSelected.rating} />
+        </div>
       </div>
       <Footer />
     </div>

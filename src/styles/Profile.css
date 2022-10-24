@@ -24,6 +24,7 @@
 @media screen and (max-width: 768px) {
     .kasa-host {
         font-size: 12px;
+        margin-right: 20px;
         margin-top: 17px;
     }
     .kasa-hostName {
