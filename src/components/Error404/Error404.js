@@ -1,7 +1,7 @@
 import React from "react";
 
-import Header from "../Home/Header";
-import Footer from "../Home/Footer";
+import Header from "../Features/Header";
+import Footer from "../Features/Footer";
 import "../../styles/Error404.css";
 
 function Error404() {

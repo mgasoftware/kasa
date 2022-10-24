@@ -1,8 +1,8 @@
 import React from 'react'
 
 import '../../styles/About.css';
-import Header from "../Home/Header";
-import Footer from "../Home/Footer";
+import Header from '../Features/Header';
+import Footer from '../Features/Footer';
 import Banner from '../Features/Banner';
 import Dropdown from '../Features/Dropdown';
 import background from '../../assets/aboutBackground.png';

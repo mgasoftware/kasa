@@ -1,10 +1,10 @@
 import React from 'react';
-import '../../styles/Main.css';
+import '../../styles/Cards.css';
 import background from '../../assets/homeBackground.png';
-import Banner from '../Features/Banner';
+import Banner from './Banner';
 import { Link } from 'react-router-dom';
 
-function Main(props) {
+function Cards(props) {
     return (
         <div className="kasa-main">
             <Banner background={background} />
@@ -20,4 +20,4 @@ function Main(props) {
     )
 }
 
-export default Main
+export default Cards
