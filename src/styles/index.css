@@ -27,6 +27,8 @@ body {
 	line-height: 1;
     font-family: "Montserrat";
     font-style: normal;
+	max-width: 2000px;
+	margin: auto;
 }
 ol, ul {
 	list-style: none;
