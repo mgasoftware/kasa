@@ -5,23 +5,17 @@
     color: #ff6060;
 }
 .kasa-error404 {
-    font-family: "Montserrat";
-    font-style: normal;
     font-weight: 700;
     font-size: 288px;
     line-height: 142.6%;
 }
 .kasa-errorInfo {
-    font-family: "Montserrat";
-    font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 142.6%;
     margin-bottom: 100px;
 }
 .kasa-errorLink {
-    font-family: "Montserrat";
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 142.6%;

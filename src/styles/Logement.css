@@ -10,8 +10,6 @@
     margin-top: 30px;
 }
 .kasa-logementText {
-    font-family: "Montserrat";
-    font-style: normal;
     font-weight: 500;
     color: #ff6060;
 }
@@ -31,7 +29,7 @@
 .kasa-logementDescEquip {
     display: flex;
 }
-.kasa-logementDescEquip .dropdown{
+.kasa-logementDescEquip .dropdown {
     width: 50%;
     margin-bottom: 20px;
 }
@@ -43,7 +41,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .kasa-logementMain{
+    .kasa-logementMain {
         flex-direction: column;
     }
     .kasa-logementInfo {
@@ -72,10 +70,26 @@
     .kasa-logementDescEquip {
         display: flex;
         flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
     }
-    .kasa-logementDescEquip .dropdown{
+    .kasa-logementDescEquip .dropdown {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         margin-left: 0px;
+    }
+    .kasa-logementDescEquip .header-dropdown {
+        height: 30px;
+        min-height: 30px;
+    }
+    .kasa-logementDescEquip .titre-dropdown {
+        font-size: 13px;
+    }
+    .kasa-logementDescEquip .description-dropdown {
+        font-size: 12px;
+    }
+    .kasa-logementDescEquip .fleche-dropdown img {
+        width: 15px;
+        height: 13px;
     }
 }
