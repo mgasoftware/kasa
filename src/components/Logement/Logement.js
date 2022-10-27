@@ -9,6 +9,7 @@ import { Navigate, useParams } from 'react-router';
 import Profile from '../Features/Profile';
 import Tags from '../Features/Tags';
 import Rating from '../Features/Rating';
+import Dropdown from '../Features/Dropdown';
 
 function Logement() {
   const id = useParams();
@@ -30,10 +31,14 @@ function Logement() {
           </div>
           <Tags tags={logementSelected.tags} />
         </div>
-        <div className="kasa-logementDescription">
+        <div className="kasa-logementHostRating">
           <Profile host={logementSelected.host} />
           <Rating rate={logementSelected.rating} />
         </div>
+      </div>
+      <div className="kasa-logementDescEquip">
+        <Dropdown title="Description" description={logementSelected.description} />
+        <Dropdown title="Equipements" description={logementSelected.equipments}/>
       </div>
       <Footer />
     </div>

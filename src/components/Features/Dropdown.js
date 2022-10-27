@@ -4,19 +4,33 @@ import fleche from '../../assets/fleche.svg'
 
 function Dropdown(props) {
     const [open, setOpen] = useState(false);
+    const [isList, setIsList] = useState(false);
+    
+    const verifyDropdown = () => {
+        setOpen(!open)
+        Array.isArray(props.description) === true ? setIsList(true) : setIsList(false)
+    }
+
     return (
         <div className="dropdown">
             <div className="header-dropdown">
                 <div className="titre-dropdown">{props.title}</div>
-                <button className={`fleche-dropdown ${open}`} onClick={() => setOpen(!open)}>
+                <button className={`fleche-dropdown ${open}`} onClick={() => verifyDropdown()}>
                     <img src={fleche} alt="Ouvrir cette liste" />
                 </button>
             </div>
             {
-                /* Si le dropdown est à TRUE alors il affichera la description */
-                open && 
+                open && !isList &&
                 <div className="description-dropdown">
                     {props.description}
+                </div>
+            }
+            {
+                open && isList &&
+                <div className="description-dropdown">
+                    {props.description.map((equipments) => (
+                        <p key={Object.keys(equipments)}>{equipments}</p>
+                    ))}
                 </div>
             }
         </div>

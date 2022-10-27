@@ -22,11 +22,24 @@
     margin-top: 10px;
     font-size: 18px;
 }
-.kasa-logementDescription {
+.kasa-logementHostRating {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-right: 100px;
+}
+.kasa-logementDescEquip {
+    display: flex;
+}
+.kasa-logementDescEquip .dropdown{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.kasa-logementDescEquip .description-dropdown {
+    font-size: 18px;
+}
+.kasa-logementDescEquip .titre-dropdown {
+    font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
@@ -52,8 +65,17 @@
         font-size: 14px;
         margin-top: 5px;
     }
-    .kasa-logementDescription {
+    .kasa-logementHostRating {
         flex-direction: row-reverse;
         margin-right: 0px;
+    }
+    .kasa-logementDescEquip {
+        display: flex;
+        flex-direction: column;
+    }
+    .kasa-logementDescEquip .dropdown{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0px;
     }
 }

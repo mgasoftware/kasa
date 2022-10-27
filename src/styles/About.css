@@ -3,3 +3,39 @@
     margin-right: 100px;
 }
 
+@media screen and (max-width: 768px) {
+    .kasa-about{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .kasa-about .kasa-mainInfo {
+        margin-left: 0px;
+        margin-right: 0px;
+        min-height: 223px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .kasa-about .kasa-mainImg {
+        min-height: 223px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .kasa-about .dropdown {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .kasa-about .header-dropdown {
+        height: 30px;
+        min-height: 30px;
+    }
+    .kasa-about .titre-dropdown {
+        font-size: 13px;
+    }
+    .kasa-about .description-dropdown {
+        font-size: 12px;
+    }
+    .kasa-about .fleche-dropdown img {
+        width: 15px;
+        height: 13px;
+    }
+}
