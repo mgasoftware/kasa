@@ -6,10 +6,12 @@ function Banner(props) {
   const link = useLocation();
   let isApropos = false;
 
+  // Condition that allows to differentiate the two banners the one of the homepage and the aboiut
   if(link.pathname === '/apropos'){
     isApropos = true;
   }
   else isApropos = false;
+
   return (
     <div className="kasa-mainInfo">
         <img src={props.background} alt="background" className="kasa-mainImg" />

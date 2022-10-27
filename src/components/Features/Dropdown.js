@@ -6,6 +6,7 @@ function Dropdown(props) {
     const [open, setOpen] = useState(false);
     const [isList, setIsList] = useState(false);
     
+    // Function that open or close the dropdown and verify if the props descriptions is an array
     const verifyDropdown = () => {
         setOpen(!open)
         Array.isArray(props.description) === true ? setIsList(true) : setIsList(false)

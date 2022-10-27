@@ -15,6 +15,7 @@ function Logement() {
   const id = useParams();
   const logementSelected = logements.find(logement => logement.id === id.id);
 
+  // Condition that verify if the link is good
   if (logementSelected === undefined) {
     return <Navigate to="/error" />
   }
