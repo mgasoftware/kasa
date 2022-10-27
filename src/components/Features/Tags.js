@@ -4,8 +4,8 @@ import "../../styles/Tags.css"
 function Tags(props) {
     return (
         <div className="kasa-tags">
-            {props.tags.map((tag) => (
-                <div className="kasa-tagsTag">
+            {props.tags.map((tag, index) => (
+                <div key={index} className="kasa-tagsTag">
                     <p>{tag}</p>
                 </div>
             ))}

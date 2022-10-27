@@ -10,9 +10,9 @@ function Rating(props) {
     // Condition that push to displayRating array the star if is blank or full
     for (let i = 0; i < rateMax; i++) {
         if (i + 1 <= props.rate) {
-            displayRating.push(<div className="kasa-star"><img src={star} alt="star"/></div>)
+            displayRating.push(<div key={i} className="kasa-star"><img src={star} alt="star"/></div>)
         }
-        else displayRating.push(<div className="kasa-star"><img src={starEmpty} alt="star"/></div>)
+        else displayRating.push(<div key={i} className="kasa-star"><img src={starEmpty} alt="star"/></div>)
     }
 
     return (
